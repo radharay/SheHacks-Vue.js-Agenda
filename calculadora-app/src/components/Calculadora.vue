@@ -1,6 +1,6 @@
 <template>
   <div class="calculadora">
-    <div class="display">0</div>
+    <div class="display">{{valorCorrente || '0'}}</div>
     <div class="botao">C</div>
     <div class="botao">+/-</div>
     <div class="botao">%</div>
@@ -25,6 +25,11 @@
 
 <script>
 export default {
+  data() {
+    return {
+      valorCorrente: '123',
+    };
+  },
 };
 </script>
 
