@@ -5,7 +5,8 @@
 </template>
 
 <script>
-import Calculadora from './components/Calculadora';
+// import Calculadora from './components/Calculadora';
+import Calculadora from './components/Calculadora/index';
 export default {
   name: 'App',
   components: {
